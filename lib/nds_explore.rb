@@ -31,10 +31,12 @@ def print_first_directors_movie_titles
         i += 1
       end 
     end
-  end   
+  end 
+  pp directors_database
 end
 
-director_info[:movies].each do |movie|
-  puts movie[:title]
-end 
+# alternate code for lines 28 - 33 
+#director_info[:movies].each do |movie|
+#  puts movie[:title]
+#end 
 
